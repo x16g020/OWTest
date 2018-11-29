@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/WeatherImage"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/sunny" />
+
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="読み込み中"
+            android:textColor="@android:color/background_dark"
+            android:textSize="70px" />
+
+        <TextView
+            android:id="@+id/temperature2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="読み込み中"
+            android:textColor="@android:color/background_dark"
+            android:textSize="70px" />
+
+    </LinearLayout>
+</FrameLayout>
